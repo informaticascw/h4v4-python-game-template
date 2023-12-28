@@ -1,0 +1,56 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Python 3",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"version": "latest",
+			"noVncVersion": "1.2.0",
+			"password": "game",
+			"webPort": "6080",
+			"vncPort": "5901"
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		6080
+	],
+	"portsAttributes": {
+		"6080": {
+			"label": "GUI",
+			"onAutoForward": "openPreview"
+		}
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// install pygame && add settings for opening novnc terminal
+	"postCreateCommand": "pip3 install pygame && sudo sh -c 'cat << EOF > /usr/local/novnc/noVNC-1.2.0/index.html\n<!DOCTYPE html>\n<html><head><meta http-equiv=\"refresh\" content=\"0; url=/vnc.html?autoconnect=true&password=game&resize=scale\" /></head><body><p>In 0 seconds you will be redirected to /vnc.html?autoconnect=true&password=game&resize=scale</p></body></html>\nEOF'",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"git.useEditorAsCommitInput": false, // prevent editor looking like continouosly busy after committing with an empty message
+				"git.confirmSync": false, // disable pop-up with confirmation questions after click on synchronise
+				"git.enableSmartCommit": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warning
+				"git.rebaseWhenSync": true, // leads to easier flow for students in case of conflicting commits
+				"git.postCommitCommand": "sync", // sync automatically after each commit
+				"git.mergeEditor": true, // open merge-editor for files under conflict
+				"git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
+				"git.autofetchPeriod": 60, // autofetch period 60 seconds
+				"merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one
+
+				"python.createEnvironment.trigger": "off" // disable prompt that asks if a python environment needs to be created
+			},
+			"extensions": [
+				"ms-vsliveshare.vsliveshare", // add google-docs like typing in same file, click on live-share button in left icon pane
+				"mhutchie.git-graph" // add graphical viewer for branches and commits, click on button in Source-Code tab
+			]
+		}
+	}
+}
