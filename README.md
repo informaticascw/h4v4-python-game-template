@@ -42,8 +42,17 @@ Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
 - Voer een beschrijving van de wijziging in
 - Druk op de groen knop "Commit & Sync"
 
+## Arcade kast
+Als je wilt dat je game in de Stanislas Arcade werkt, hou dan rekening met het volgende:
+- Gebruik de juiste toetsen in je spel. Rood is voor speler 1. Als je spel met 2 spelers werkt, dan is blauw voor speler 2.
+![arcade keys mapping ](arcade-keys.png)
+- Update de naam van je game en de makers in metadata.json
+- Update screenshot.jpg
+
 ## Documentatie
 - de editor vscode:<br>
 [https://code.visualstudio.com/docs/getstarted/userinterface](https://code.visualstudio.com/docs/getstarted/userinterface)
 - werken met GitHub en Codespaces:<br>
 [https://stanislas.informatica.nu/help/codespaces/](https://stanislas.informatica.nu/help/codespaces/)
+- Stanislas Arcade:<br>
+[https://github.com/informaticascw/arcade](https://github.com/informaticascw/arcade)
