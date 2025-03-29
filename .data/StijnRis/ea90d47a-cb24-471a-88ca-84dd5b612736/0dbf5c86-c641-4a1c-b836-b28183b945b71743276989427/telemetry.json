@@ -1,0 +1,55 @@
+{
+  "eventType": "document_open",
+  "timestamp": "2025-03-29T19:45:02.046Z",
+  "sessionId": "0dbf5c86-c641-4a1c-b836-b28183b945b71743276989427",
+  "machineId": "ea90d47a-cb24-471a-88ca-84dd5b612736",
+  "githubUsername": "StijnRis",
+  "data": {
+    "documentPath": "/workspaces/h4v4-python-game-template/.vscode/settings.json",
+    "documentText": "{\n    \"git.useEditorAsCommitInput\": false, // prevent editor looking like continously busy after committing with an empty message\n    \"git.confirmSync\": false, // disable pop-up with confirmation questions after click on synchronise\n    \"git.enableSmartCommit\": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warning\n    \"git.postCommitCommand\": \"sync\", // sync automatically after each commit, prevents forgetting push to github after commit\n    \"git.rebaseWhenSync\": true, // leads to easier flow for students in case of conflicting commits\n    \"git.mergeEditor\": true, // open merge-editor for files under conflict\n    \"git.autofetch\": true, // autofetch (fetch means count, not read) changes from github periodically\n    \"git.autofetchPeriod\": 60, // autofetch period 60 seconds\n    \"merge-conflict.autoNavigateNextConflict.enabled\": true, // auto navigate to next merge conflict after resolving one\n\n    \"python.createEnvironment.trigger\": \"off\", // disable prompt that asks if a python environment needs to be created\n\n    // Hide the .data directory used by the tutor extension\n\n\n    \"files.exclude\": {\n        \".data\": true\n      },\n  \n  \n      \"search.exclude\": {\n        \".data\": true\n      }\n  \n}\n"
+  }
+},
+{
+  "eventType": "document_close",
+  "timestamp": "2025-03-29T19:45:02.048Z",
+  "sessionId": "0dbf5c86-c641-4a1c-b836-b28183b945b71743276989427",
+  "machineId": "ea90d47a-cb24-471a-88ca-84dd5b612736",
+  "githubUsername": "StijnRis",
+  "data": {
+    "documentPath": "/workspaces/h4v4-python-game-template/main.py.git",
+    "documentText": "#\n# BREAKOUT GAME \n#\n\nimport pygame, time\n\n#\n# definitions \n#\n\nFPS = 30 # Frames Per Second\nSCREEN_WIDTH = 1280\nSCREEN_HEIGHT = 720\nBALL_WIDTH = 16\nBALL_HEIGHT = 16\n\nball_x = 0\nball_speed_x = 6\n\n#\n# init game\n#\n\npygame.init()\nfont = pygame.font.SysFont('default', 64)\nscreen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN | pygame.SCALED)\nfps_clock = pygame.time.Clock()\n\n#\n# read images\n#\n\nspritesheet = pygame.image.load('Breakout_Tile_Free.png').convert_alpha()   \n\nball_img = pygame.Surface((64, 64), pygame.SRCALPHA)  \nball_img.blit(spritesheet, (0, 0), (1403, 652, 64, 64))   \nball_img = pygame.transform.scale(ball_img, (BALL_WIDTH, BALL_HEIGHT))  \n\n#\n# game loop\n#\n\nprint('mygame is running')\nrunning = True\nwhile running:\n    #\n    # read events\n    # \n    for event in pygame.event.get(): \n        if event.type == pygame.QUIT:  \n            running = False \n    keys = pygame.key.get_pressed() \n            \n    # \n    # move everything\n    #\n\n    # move ball\n    ball_x = ball_x + ball_speed_x\n\n    # bounce ball\n    if ball_x < 0 : \n      ball_speed_x = abs(ball_speed_x) \n    if ball_x + BALL_WIDTH > SCREEN_WIDTH: \n      ball_speed_x = abs(ball_speed_x) * -1 \n\n    # \n    # handle collisions\n    #\n    \n    # \n    # draw everything\n    #\n\n    # clear screen\n    screen.fill('black') \n\n    # draw ball\n    screen.blit(ball_img, (ball_x, 0))\n    \n    # show screen\n    pygame.display.flip() \n\n    # \n    # wait until next frame\n    #\n\n    fps_clock.tick(FPS) # Sleep the remaining time of this frame\n\nprint('mygame stopt running')\n"
+  }
+},
+{
+  "eventType": "document_close",
+  "timestamp": "2025-03-29T19:45:05.934Z",
+  "sessionId": "0dbf5c86-c641-4a1c-b836-b28183b945b71743276989427",
+  "machineId": "ea90d47a-cb24-471a-88ca-84dd5b612736",
+  "githubUsername": "StijnRis",
+  "data": {
+    "documentPath": "/workspaces/h4v4-python-game-template/.vscode/launch.json",
+    "documentText": "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n\n    {\n      \"name\": \"python main.py\",\n      \"type\": \"debugpy\",\n      \"request\": \"launch\",\n      \"program\": \"main.py\",\n      \"console\": \"integratedTerminal\"\n    }\n  ]\n}\n"
+  }
+},
+{
+  "eventType": "document_close",
+  "timestamp": "2025-03-29T19:45:06.278Z",
+  "sessionId": "0dbf5c86-c641-4a1c-b836-b28183b945b71743276989427",
+  "machineId": "ea90d47a-cb24-471a-88ca-84dd5b612736",
+  "githubUsername": "StijnRis",
+  "data": {
+    "documentPath": "/workspaces/h4v4-python-game-template/.vscode/launch.json.git",
+    "documentText": "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n\n    {\n      \"name\": \"python main.py\",\n      \"type\": \"debugpy\",\n      \"request\": \"launch\",\n      \"program\": \"main.py\",\n      \"console\": \"integratedTerminal\"\n    }\n  ]\n}\n"
+  }
+},
+{
+  "eventType": "document_close",
+  "timestamp": "2025-03-29T19:45:07.712Z",
+  "sessionId": "0dbf5c86-c641-4a1c-b836-b28183b945b71743276989427",
+  "machineId": "ea90d47a-cb24-471a-88ca-84dd5b612736",
+  "githubUsername": "StijnRis",
+  "data": {
+    "documentPath": "/workspaces/h4v4-python-game-template/.vscode/settings.json.git",
+    "documentText": "{\n    \"git.useEditorAsCommitInput\": false, // prevent editor looking like continously busy after committing with an empty message\n    \"git.confirmSync\": false, // disable pop-up with confirmation questions after click on synchronise\n    \"git.enableSmartCommit\": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warning\n    \"git.postCommitCommand\": \"sync\", // sync automatically after each commit, prevents forgetting push to github after commit\n    \"git.rebaseWhenSync\": true, // leads to easier flow for students in case of conflicting commits\n    \"git.mergeEditor\": true, // open merge-editor for files under conflict\n    \"git.autofetch\": true, // autofetch (fetch means count, not read) changes from github periodically\n    \"git.autofetchPeriod\": 60, // autofetch period 60 seconds\n    \"merge-conflict.autoNavigateNextConflict.enabled\": true, // auto navigate to next merge conflict after resolving one\n\n    \"python.createEnvironment.trigger\": \"off\", // disable prompt that asks if a python environment needs to be created\n\n    // Hide the .data directory used by the tutor extension\n\n\n    \"files.exclude\": {\n        \".data\": true\n      },\n  \n  \n      \"search.exclude\": {\n        \".data\": true\n      }\n  \n}\n"
+  }
+},

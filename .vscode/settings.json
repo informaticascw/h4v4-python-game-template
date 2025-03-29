@@ -12,15 +12,10 @@
     "python.createEnvironment.trigger": "off", // disable prompt that asks if a python environment needs to be created
 
     // Hide the .data directory used by the tutor extension
-
-
     "files.exclude": {
-        ".data": true
-      },
-  
-  
-      "search.exclude": {
-        ".data": true
-      }
-  
+      ".data": true
+    },
+    "search.exclude": {
+      ".data": true
+    }
 }
