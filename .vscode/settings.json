@@ -13,9 +13,9 @@
 
     // Hide the .data directory used by the tutor extension
     "files.exclude": {
-      ".data": true
+    //  ".data": true
     },
     "search.exclude": {
-      ".data": true
+    //  ".data": true
     }
 }
