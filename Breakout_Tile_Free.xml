@@ -4,7 +4,7 @@
 	<SubTexture name="03-brick-lightgreen.png" x="0" y="130" width="384" height="128"/>
 	<SubTexture name="04-brick-lightgreen-cracked.png" x="0" y="260" width="384" height="128"/>
 	<SubTexture name="05-brick-purple.png" x="0" y="390" width="384" height="128"/>
-	<SubTexture name="06-brick-purple-cracked.png.png" x="0" y="520" width="384" height="128"/>
+	<SubTexture name="06-brick-purple-cracked.png" x="0" y="520" width="384" height="128"/>
 	<SubTexture name="07-brick-red.png" x="772" y="260" width="384" height="128"/>
 	<SubTexture name="08-brick-red-cracked.png" x="772" y="130" width="384" height="128"/>
 	<SubTexture name="09-brick-orange.png" x="772" y="0" width="384" height="128"/>
