@@ -1,24 +1,24 @@
 <TextureAtlas imagePath="Breakout_Tile_Free.png">
-	<SubTexture name="01-Breakout-Tiles.png" x="772" y="390" width="384" height="128"/>
-	<SubTexture name="02-Breakout-Tiles.png" x="0" y="0" width="384" height="128"/>
-	<SubTexture name="03-Breakout-Tiles.png" x="0" y="130" width="384" height="128"/>
-	<SubTexture name="04-Breakout-Tiles.png" x="0" y="260" width="384" height="128"/>
-	<SubTexture name="05-Breakout-Tiles.png" x="0" y="390" width="384" height="128"/>
-	<SubTexture name="06-Breakout-Tiles.png" x="0" y="520" width="384" height="128"/>
-	<SubTexture name="07-Breakout-Tiles.png" x="772" y="260" width="384" height="128"/>
-	<SubTexture name="08-Breakout-Tiles.png" x="772" y="130" width="384" height="128"/>
-	<SubTexture name="09-Breakout-Tiles.png" x="772" y="0" width="384" height="128"/>
-	<SubTexture name="10-Breakout-Tiles.png" x="772" y="650" width="384" height="128"/>
-	<SubTexture name="11-Breakout-Tiles.png" x="386" y="650" width="384" height="128"/>
-	<SubTexture name="12-Breakout-Tiles.png" x="386" y="520" width="384" height="128"/>
-	<SubTexture name="13-Breakout-Tiles.png" x="386" y="390" width="384" height="128"/>
-	<SubTexture name="14-Breakout-Tiles.png" x="386" y="260" width="384" height="128"/>
-	<SubTexture name="15-Breakout-Tiles.png" x="386" y="130" width="384" height="128"/>
-	<SubTexture name="16-Breakout-Tiles.png" x="386" y="0" width="384" height="128"/>
-	<SubTexture name="17-Breakout-Tiles.png" x="772" y="520" width="384" height="128"/>
-	<SubTexture name="18-Breakout-Tiles.png" x="0" y="650" width="384" height="128"/>
-	<SubTexture name="19-Breakout-Tiles.png" x="386" y="780" width="384" height="128"/>
-	<SubTexture name="20-Breakout-Tiles.png" x="0" y="780" width="384" height="128"/>
+	<SubTexture name="01-brick-blue.png" x="772" y="390" width="384" height="128"/>
+	<SubTexture name="02-brick-blue-cracked.png" x="0" y="0" width="384" height="128"/>
+	<SubTexture name="03-brick-lightgreen.png" x="0" y="130" width="384" height="128"/>
+	<SubTexture name="04-brick-lightgreen-cracked.png" x="0" y="260" width="384" height="128"/>
+	<SubTexture name="05-brick-purple.png" x="0" y="390" width="384" height="128"/>
+	<SubTexture name="06-brick-purple-cracked.png.png" x="0" y="520" width="384" height="128"/>
+	<SubTexture name="07-brick-red.png" x="772" y="260" width="384" height="128"/>
+	<SubTexture name="08-brick-red-cracked.png" x="772" y="130" width="384" height="128"/>
+	<SubTexture name="09-brick-orange.png" x="772" y="0" width="384" height="128"/>
+	<SubTexture name="10-brick-orange-cracked.png" x="772" y="650" width="384" height="128"/>
+	<SubTexture name="11-brick-lightblue.png" x="386" y="650" width="384" height="128"/>
+	<SubTexture name="12-brick-lightblue-cracked.png" x="386" y="520" width="384" height="128"/>
+	<SubTexture name="13-brick-yellow.png" x="386" y="390" width="384" height="128"/>
+	<SubTexture name="14-brick-yellow-cracked.png" x="386" y="260" width="384" height="128"/>
+	<SubTexture name="15-brick-green.png" x="386" y="130" width="384" height="128"/>
+	<SubTexture name="16-brick-green-cracked.png" x="386" y="0" width="384" height="128"/>
+	<SubTexture name="17-brick-grey.png" x="772" y="520" width="384" height="128"/>
+	<SubTexture name="18-brick-grey-cracked.png" x="0" y="650" width="384" height="128"/>
+	<SubTexture name="19-brick-brown.png" x="386" y="780" width="384" height="128"/>
+	<SubTexture name="20-brick-brown-cracked.png" x="0" y="780" width="384" height="128"/>
 	<SubTexture name="21-Breakout-Tiles.png" x="1533" y="392" width="128" height="128"/>
 	<SubTexture name="22-Breakout-Tiles.png" x="1403" y="132" width="128" height="128"/>
 	<SubTexture name="23-Breakout-Tiles.png" x="1403" y="262" width="128" height="128"/>
