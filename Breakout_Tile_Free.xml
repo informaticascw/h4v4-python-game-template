@@ -31,10 +31,10 @@
 	<SubTexture name="30-block-blue.png" x="1533" y="522" width="128" height="128"/>
 	<SubTexture name="31-paddle-plus50.png" x="1403" y="66" width="243" height="64"/>
 	<SubTexture name="32-paddle-plus100-step7.png" x="1158" y="0" width="243" height="64"/>
-	<SubTexture name="33-Breakout-Tiles.png" x="1084" y="912" width="243" height="64"/>
-	<SubTexture name="34-Breakout-Tiles.png" x="1084" y="846" width="243" height="64"/>
-	<SubTexture name="35-Breakout-Tiles.png" x="1017" y="780" width="243" height="64"/>
-	<SubTexture name="36-Breakout-Tiles.png" x="839" y="912" width="243" height="64"/>
+	<SubTexture name="33-paddle-plus100-step6.png" x="1084" y="912" width="243" height="64"/>
+	<SubTexture name="34-paddle-plus100-step5.png" x="1084" y="846" width="243" height="64"/>
+	<SubTexture name="35-paddle-plus100-step3.png" x="1017" y="780" width="243" height="64"/>
+	<SubTexture name="36-paddle-plus100-step2.png" x="839" y="912" width="243" height="64"/>
 	<SubTexture name="37-paddle-plus100-step1.png" x="1329" y="858" width="243" height="64"/>
 	<SubTexture name="38-paddle-plus100-step4.png" x="1329" y="792" width="243" height="64"/>
 	<SubTexture name="39-paddle-plus250.png" x="1403" y="0" width="243" height="64"/>
@@ -42,7 +42,7 @@
 	<SubTexture name="41-paddle-slow.png" x="1158" y="66" width="243" height="64"/>
 	<SubTexture name="42-paddle-fast.png" x="349" y="910" width="243" height="64"/>
 	<SubTexture name="43-paddle-balls.png" x="594" y="910" width="243" height="64"/>
-	<SubTexture name="44-Breakout-Tiles.png" x="1262" y="726" width="243" height="64"/>
+	<SubTexture name="44-paddle-comet-red.png" x="1262" y="726" width="243" height="64"/>
 	<SubTexture name="45-paddle-comet-green.png" x="1158" y="132" width="243" height="64"/>
 	<SubTexture name="46-paddle-arrows-inside.png" x="1158" y="198" width="243" height="64"/>
 	<SubTexture name="47-paddle-arrows-outside.png" x="1158" y="264" width="243" height="64"/>
@@ -52,12 +52,12 @@
 	<SubTexture name="51-paddle-electric-step2.png" x="1158" y="528" width="243" height="64"/>
 	<SubTexture name="52-paddle-electric-step3.png" x="1158" y="594" width="243" height="64"/>
 	<SubTexture name="53-paddle-shoot-electric-step1.png" x="1158" y="660" width="243" height="64"/>
-	<SubTexture name="54-Breakout-Tiles.png" x="839" y="846" width="243" height="64"/>
-	<SubTexture name="55-Breakout-Tiles.png" x="772" y="780" width="243" height="64"/>
+	<SubTexture name="54-paddle-shoot-electric-step3.png" x="839" y="846" width="243" height="64"/>
+	<SubTexture name="55-paddle-shoot-electric-step2.png" x="772" y="780" width="243" height="64"/>
 	<SubTexture name="56-paddle-wide.png" x="0" y="910" width="347" height="64"/>
 	<SubTexture name="57-paddle-narrow.png" x="1574" y="912" width="115" height="64"/>
 	<SubTexture name="58-ball.png" x="1403" y="652" width="64" height="64"/>
-	<SubTexture name="59-Breakout-Tiles.png" x="772" y="846" width="64" height="61"/>
+	<SubTexture name="59-star.png" x="772" y="846" width="64" height="61"/>
 	<SubTexture name="60-heart.png" x="1637" y="652" width="64" height="58"/>
 	<SubTexture name="61-bullet.png" x="0" y="990" width="10" height="21"/>
 </TextureAtlas>
