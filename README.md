@@ -2,7 +2,7 @@
 Startcode voor het programmeren van een breakout game in python met het pygame package.
 
 De startcode is onderdeel van de praktische opdracht python programmeren voor het vak informatica op het Stanislascollege Westplantsoen.<br>
-Meer informatie over de opdracht staat op https://stanislas.informatica.nu/game/
+Meer informatie over de opdracht staat op https://stanislas.informatica.nu/ in het hoofdstuk Game.
 
 De aanbevolen ontwikkelomgeving is GitHub Codespaces, maar de code zou moeten draaien in elke ontwikkelomgeving met python en het pygame package.
 
