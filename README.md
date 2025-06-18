@@ -53,6 +53,6 @@ Als je wilt dat je game in de Stanislas Arcade werkt, hou dan rekening met het v
 - de editor vscode:<br>
 [https://code.visualstudio.com/docs/getstarted/userinterface](https://code.visualstudio.com/docs/getstarted/userinterface)
 - werken met GitHub en Codespaces:<br>
-[https://stanislas.informatica.nu/help/codespaces/](https://stanislas.informatica.nu/help/codespaces/)
+[https://stanislas.informatica.nu/](https://stanislas.informatica.nu/) kies het hoofdstuk over de Game opdracht en kijk in de bijlage over Codespaces
 - Stanislas Arcade:<br>
 [https://github.com/informaticascw/arcade](https://github.com/informaticascw/arcade)
