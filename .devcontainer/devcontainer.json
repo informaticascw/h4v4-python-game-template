@@ -3,11 +3,10 @@
 {
 	"name": "pygame",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	// Or use "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
-	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"image": "mcr.microsoft.com/devcontainers/universal:latest",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:1": {
+		"ghcr.io/devcontainers/features/desktop-lite:latest": {
 			"version": "latest",
 			"noVncVersion": "1.2.0", // version hard coded in postCreateCommand, later version doesn't seem to work, don't know why
 			"password": "game",
