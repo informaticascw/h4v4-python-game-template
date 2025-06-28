@@ -8,7 +8,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:latest": {
 			"version": "latest",
-			"noVncVersion": "1.2.0", // version hard coded in postCreateCommand, later version doesn't seem to work, don't know why
+			"noVncVersion": "1.6.0", // version hard coded in postCreateCommand, later version doesn't seem to work, don't know why
 			"password": "game",
 			"webPort": "6080",
 			"vncPort": "5901"
