@@ -22,7 +22,7 @@ ball_speed_x = 6
 #
 
 pygame.init()
-font = pygame.font.SysFont('default', 64)
+font = pygame.font.Font('PressStart2P-Regular.ttf', 64)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN | pygame.SCALED)
 fps_clock = pygame.time.Clock()
 
