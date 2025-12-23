@@ -1,15 +1,14 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/python
+// For format details, see https://aka.ms/devcontainer.json. 
 {
 	"name": "pygame",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// Image to use for the dev container. More info: https://containers.dev/templates
 	"image": "mcr.microsoft.com/devcontainers/python:3.13-trixie",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:latest": {
 			"version": "latest",
-			"noVncVersion": "1.6.0", // version hard coded in postCreateCommand
-			"password": "game",
+			"noVncVersion": "1.6.0", 
+			"password": "noPassword",
 			"webPort": "6080",
 			"vncPort": "5901"
 		}
@@ -25,10 +24,8 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// install pygame && add settings for opening novnc terminal
-	"postCreateCommand": "pip3 install pygame && sudo sh -c 'cat << EOF > /usr/local/novnc/noVNC-1.6.0/index.html\n<!DOCTYPE html>\n<html><head><meta http-equiv=\"refresh\" content=\"0; url=/vnc.html?autoconnect=true&password=game&resize=scale\" /></head><body><p>In 0 seconds you will be redirected to /vnc.html?autoconnect=true&password=game&resize=scale</p></body></html>\nEOF'",
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
