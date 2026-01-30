@@ -1,3 +1,12 @@
+# HOTFIX
+
+Run dit commando in de terminal, elke keer als je de codespace start
+```
+bash hotfix.sh
+```
+
+Het is onderdeel van een work around voor een probleem met het starten van de codespace.
+
 # PyGame opdracht
 Startcode voor het programmeren van een breakout game in python met het pygame package.
 
