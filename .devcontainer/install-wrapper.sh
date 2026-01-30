@@ -7,3 +7,4 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /et
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 cd $SCRIPT_DIR
 sudo bash install.sh
+

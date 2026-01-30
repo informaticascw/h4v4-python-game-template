@@ -29,9 +29,9 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "bash .devcontainer/install-wrapper.sh && bash .devcontainer/postCreateCommand.sh",
+	"postCreateCommand": "bash .devcontainer/install-wrapper.sh && bash .devcontainer/postCreateCommand.sh",
 
-	//"postStartCommand": "nohup /usr/local/share/desktop-init.sh > .desktop-init.log 2>&1 &",
+	"postStartCommand": "export DISPLAY=:1 && nohup /usr/local/share/desktop-init.sh > .desktop-init.log 2>&1 &",
 	
 	// Configure tool-specific properties.
 	"customizations": {

@@ -15,7 +15,7 @@ BALL_WIDTH = 16
 BALL_HEIGHT = 16
 
 ball_x = 0
-ball_speed_x = 6
+ball_speed_x = 24
 
 #
 # init game
