@@ -175,9 +175,6 @@ check_packages() {
 # Ensure apt is in non-interactive to avoid prompts
 export DEBIAN_FRONTEND=noninteractive
 
-# work around for yarn related error on missing key, see https://github.com/yarnpkg/yarn/issues/9218
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /etc/apt/keyrings/yarn-archive-keyring.gpg > /dev/null
-
 apt_get_update
 
 # On older Ubuntu, Tilix is in a PPA. on Debian stretch its in backports.
