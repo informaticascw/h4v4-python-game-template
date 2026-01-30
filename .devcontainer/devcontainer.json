@@ -29,7 +29,7 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash .devcontainer/.install-wrapper.sh && bash .devcontainer/postCreateCommand.sh",
+	"postCreateCommand": "bash .devcontainer/install-wrapper.sh && bash .devcontainer/postCreateCommand.sh",
 
 	"postStartCommand": "/usr/local/share/desktop-init.sh",
 	
