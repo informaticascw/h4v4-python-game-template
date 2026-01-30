@@ -1,6 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
+cd $SCRIPT_DIR
 sudo bash install.sh
 
 # Copy index.html to noVNC directory
