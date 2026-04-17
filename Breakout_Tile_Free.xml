@@ -19,7 +19,7 @@
 	<SubTexture name="18-brick-grey-cracked.png" x="0" y="650" width="384" height="128"/>
 	<SubTexture name="19-brick-brown.png" x="386" y="780" width="384" height="128"/>
 	<SubTexture name="20-brick-brown-cracked.png" x="0" y="780" width="384" height="128"/>
-	<SubTexture name="21-block-brown.png" x="1533" y="392" width="128" height="128"/>
+	<SubTexture name="21-block-brown.png" x="1533" y="522" width="128" height="128"/>
 	<SubTexture name="22-block-lightgreen.png" x="1403" y="132" width="128" height="128"/>
 	<SubTexture name="23-block-purple.png" x="1403" y="262" width="128" height="128"/>
 	<SubTexture name="24-block-red.png" x="1403" y="392" width="128" height="128"/>
@@ -28,7 +28,7 @@
 	<SubTexture name="27-block-lightblue.png" x="1533" y="132" width="128" height="128"/>
 	<SubTexture name="28-block-green.png" x="1533" y="262" width="128" height="128"/>
 	<SubTexture name="29-block-gray.png" x="1574" y="782" width="128" height="128"/>
-	<SubTexture name="30-block-blue.png" x="1533" y="522" width="128" height="128"/>
+	<SubTexture name="30-block-blue.png" x="1533" y="392" width="128" height="128"/>
 	<SubTexture name="31-paddle-plus50.png" x="1403" y="66" width="243" height="64"/>
 	<SubTexture name="32-paddle-plus100-step7.png" x="1158" y="0" width="243" height="64"/>
 	<SubTexture name="33-paddle-plus100-step6.png" x="1084" y="912" width="243" height="64"/>
